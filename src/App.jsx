@@ -4,7 +4,7 @@ import styles from "./styles";
 import Navbar from "./components/Navbar";
 import Stats from "./components/Stats";
 import Footer from './components/Footer';
-import Hero from "./components/Hero";
+import Home from "./components/Home";
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
 
       <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <Hero />
+          <Home />
         </div>
       </div>
 
