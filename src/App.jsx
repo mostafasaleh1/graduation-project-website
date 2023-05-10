@@ -3,8 +3,8 @@ import React from 'react';
 import styles from "./styles";
 import Navbar from "./components/Navbar";
 import Stats from "./components/Stats";
-import Footer from './components/Footer';
 import Home from "./components/Home";
+import Business from './components/Business';
 
 const App = () => {
   return (
@@ -24,10 +24,9 @@ const App = () => {
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Stats />
-          <Footer />
+          <Business />
         </div>
       </div>
-
     </div>
 
 
