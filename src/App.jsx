@@ -9,6 +9,7 @@ import Billing from "./components/Billing";
 import CardDeal from "./components/CardDeal";
 import Testimonials from "./components/Testimonials";
 import Clients from "./components/Clients";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -35,6 +36,7 @@ const App = () => {
           <CardDeal />
           <Testimonials />
           <Clients />
+          <Footer />
         </div>
       </div>
     </div>
