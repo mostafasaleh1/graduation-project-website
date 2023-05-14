@@ -7,6 +7,8 @@ import Home from "./components/Home";
 import Business from "./components/Business";
 import Billing from "./components/Billing";
 import CardDeal from "./components/CardDeal";
+import Testimonials from "./components/Testimonials";
+import Clients from "./components/Clients";
 
 const App = () => {
   return (
@@ -31,6 +33,8 @@ const App = () => {
           <Business />
           <Billing />
           <CardDeal />
+          <Testimonials />
+          <Clients />
         </div>
       </div>
     </div>
