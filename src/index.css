@@ -21,12 +21,12 @@
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
-    #def9fa 0.89%,
-    #bef3f5 17.23%,
-    #9dedf0 42.04%,
-    #7de7eb 55.12%,
-    #5ce1e6 71.54%,
-    #33bbcf 100%
+    #eed8cf 0.89%,
+    #eec0ae 17.23%,
+    #eca78c 42.04%,
+    #f09069 55.12%,
+    #e87345 71.54%,
+    #f15b20 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -37,12 +37,12 @@
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
-    #def9fa -43.27%,
-    #bef3f5 -21.24%,
-    #9dedf0 12.19%,
-    #7de7eb 29.82%,
-    #5ce1e6 51.94%,
-    #33bbcf 90.29%
+    #eed8cf -43.27%,
+    #eec0ae -21.24%,
+    #eca78c 12.19%,
+    #f09069 29.82%,
+    #e87345 51.94%,
+    #f15b20 90.29%
   );
 }
 
@@ -107,7 +107,7 @@
   }
 }
 
-.feature-card:hover {
+.feature-card:hover, .active {
   background: var(--black-gradient);
   box-shadow: var(--card-shadow);
 }
