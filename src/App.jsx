@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./styles";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import Description from "./components/Description";
+import Info from "./components/Info";
 import Billing from "./components/Billing";
 import CardDeal from "./components/CardDeal";
 import Testimonials from "./components/Testimonials";
@@ -29,7 +29,7 @@ const App = () => {
 
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <Description />
+          <Info />
           <Billing />
           <CardDeal />
           <Testimonials />
