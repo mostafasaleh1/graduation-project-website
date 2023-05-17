@@ -2,9 +2,8 @@
 import React from "react";
 import styles from "./styles";
 import Navbar from "./components/Navbar";
-import Stats from "./components/Stats";
 import Home from "./components/Home";
-import Business from "./components/Business";
+import Description from "./components/Description";
 import Billing from "./components/Billing";
 import CardDeal from "./components/CardDeal";
 import Testimonials from "./components/Testimonials";
@@ -30,8 +29,7 @@ const App = () => {
 
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <Stats />
-          <Business />
+          <Description />
           <Billing />
           <CardDeal />
           <Testimonials />
