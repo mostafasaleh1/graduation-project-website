@@ -138,3 +138,11 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+tr {
+  border-bottom: 1px solid;
+}
+
+td {
+  padding: 3px 0 3px 0;
+}
