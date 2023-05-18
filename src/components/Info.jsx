@@ -32,11 +32,11 @@ const Info = () => {
         </div>
       </div>
 
-      <div id="Description" className={activeTab ? "hidden" : "block"}>
+      <div id="Description" className={activeTab ? `hidden ${styles.flexCenter}` : `block ${styles.flexCenter}`}>
         <Description />
       </div>
 
-      <div id="Specifications" className={activeTab ? "block" : "hidden"}>
+      <div id="Specifications" className={activeTab ? `block ${styles.flexCenter}` : `hidden ${styles.flexCenter}`}>
         <Specifications />
       </div>
 

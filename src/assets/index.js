@@ -24,6 +24,8 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import homeImage from "./homeImage.png";
 import video from "./video.mp4";
+import technologies from "./technologies.png";
+import fullInfo from "./fullInfo.webp";
 
 export {
   airbnb,
@@ -52,4 +54,6 @@ export {
   people03,
   homeImage,
   video,
+  technologies,
+  fullInfo,
 };
