@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles";
 import { homeImage } from "../assets";
-import GetStarted from "./GetStarted";
+import ViewOnGithub from "./ViewOnGithub";
 
 const Home = () => (
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
@@ -13,7 +13,7 @@ const Home = () => (
                     <span className="text-gradient text-[1.1em]">Arm Mobile</span>{" "}
                 </h1>
                 <div className="ss:flex hidden md:mr-4 mr-0">
-                    <GetStarted />
+                    <ViewOnGithub />
                 </div>
             </div>
 
@@ -35,7 +35,7 @@ const Home = () => (
         </div>
 
         <div className={`ss:hidden ${styles.flexCenter}`}>
-            <GetStarted />
+            <ViewOnGithub />
         </div>
     </section>
 )

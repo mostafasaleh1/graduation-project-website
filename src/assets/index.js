@@ -1,8 +1,3 @@
-import airbnb from "./airbnb.png";
-import binance from "./binance.png";
-import card from "./card.png";
-import coinbase from "./coinbase.png";
-import dropbox from "./dropbox.png";
 import logo from "./logo.png";
 import quotes from "./quotes.svg";
 import menu from "./menu.svg";
@@ -19,13 +14,15 @@ import people03 from "./people03.png";
 import homeImage from "./homeImage.png";
 import technologies from "./technologies.png";
 import fullInfo from "./fullInfo.webp";
+import projectComponents from "./projectComponents.webp";
+import projectDimentions from "./projectDimentions.webp";
+import camera from "./camera.webp";
+import cameraDimentions from "./cameraDimentions.webp";
+import armDimentions from "./armDimentions.webp";
+import arm from "./arm.webp";
+
 
 export {
-  airbnb,
-  binance,
-  card,
-  coinbase,
-  dropbox,
   logo,
   quotes,
   menu,
@@ -42,4 +39,10 @@ export {
   homeImage,
   technologies,
   fullInfo,
+  projectComponents,
+  projectDimentions,
+  camera,
+  cameraDimentions,
+  armDimentions,
+  arm,
 };

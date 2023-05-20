@@ -4,8 +4,7 @@ import styles from "./styles";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Info from "./components/Info";
-import Billing from "./components/Billing";
-import CardDeal from "./components/CardDeal";
+import ProjectInformation from "./components/ProjectInformation";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 
@@ -29,8 +28,7 @@ const App = () => {
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Info />
-          <Billing />
-          <CardDeal />
+          <ProjectInformation />
           <Testimonials />
           <Footer />
         </div>

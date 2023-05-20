@@ -3,7 +3,7 @@ import React from 'react';
 import styles from "../styles";
 import { arrowUp } from '../assets';
 
-const GetStarted = () => {
+const ViewOnGithub = () => {
     return (
         <div className={`${styles.flexCenter} w-[130px] h-[130px] rounded-full bg-blue-gradient p-[2px] cursor-pointer`}>
             <div className={`${styles.flexCenter} flex-col bg-primary w-[100%] h-[100%] rounded-full`}>
@@ -22,4 +22,4 @@ const GetStarted = () => {
     )
 }
 
-export default GetStarted;
+export default ViewOnGithub;
