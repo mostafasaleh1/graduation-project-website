@@ -107,7 +107,7 @@
   }
 }
 
-.feature-card:hover, .active {
+.feature-card:hover, .active-tab {
   background: var(--black-gradient);
   box-shadow: var(--card-shadow);
 }
@@ -137,6 +137,10 @@
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+}
+
+.active {
+  color: #e87345;
 }
 
 tr {

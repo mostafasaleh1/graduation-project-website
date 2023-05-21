@@ -19,13 +19,13 @@ const Info = () => {
     <section id="features" className={layout.sectionCol}>
 
       <div className={`${layout.sectionImg} flex`}>
-        <div className={activeTab ? `${tabClass}` : `${tabClass} active`} onClick={toggleActiveTab}>
+        <div className={activeTab ? `${tabClass}` : `${tabClass} active-tab`} onClick={toggleActiveTab}>
           <h2 className="font-poppins font-semibold text-white text-[18px] leading-[23.4px]">
             Description
           </h2>
         </div>
 
-        <div className={activeTab ? `${tabClass} active` : `${tabClass}`} onClick={toggleActiveTab}>
+        <div className={activeTab ? `${tabClass} active-tab` : `${tabClass}`} onClick={toggleActiveTab}>
           <h2 className="font-poppins font-semibold text-white text-[18px] leading-[23.4px]">
             Specifications
           </h2>

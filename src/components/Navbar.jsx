@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { close, logo, menu } from "../assets";
 import { navLinks } from '../constants/index';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(false)
@@ -13,8 +13,8 @@ const Navbar = () => {
             <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
                 {navLinks.map((nav, index) => {
                     return (
-                        <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? "mr-0" : "mr-10"} text-white`}>
-                            <Link to={`${nav.id}`}>{nav.title}</Link>
+                        <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] hover:text-[#e87345] ${index === navLinks.length - 1 ? "mr-0" : "mr-10"} text-white`}>
+                            <NavLink to={`${nav.id}`}>{nav.title}</NavLink>
                         </li>
                     );
                 })}
@@ -28,8 +28,8 @@ const Navbar = () => {
                 <ul className='list-none flex flex-col justify-end items-center flex-1'>
                     {navLinks.map((nav, index) => {
                         return (
-                            <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? "mr-0" : "mb-4"} text-white`}>
-                                <Link to={`${nav.id}`}>{nav.title}</Link>
+                            <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] hover:text-[#e87345] ${index === navLinks.length - 1 ? "mr-0" : "mb-4"} text-white`}>
+                                <NavLink to={`${nav.id}`}>{nav.title}</NavLink>
                             </li>
                         );
                     })}

@@ -27,44 +27,26 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, mollitia vel unde cumque illo sint?",
+    name: "Person",
+    title: "Job",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, mollitia vel unde cumque illo sint?",
+    name: "Person",
+    title: "Job",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, mollitia vel unde cumque illo sint?",
+    name: "Person",
+    title: "Job",
     img: people03,
-  },
-];
-
-export const stats = [
-  {
-    id: "stats-1",
-    title: "User Active",
-    value: "3800+",
-  },
-  {
-    id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
-  },
-  {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
   },
 ];
 
@@ -74,23 +56,23 @@ export const footerLinks = [
     links: [
       {
         name: "Content",
-        link: "https://www.link.com/",
+        link: "https://mostafasaleh1.github.io/myprofile",
       },
       {
         name: "How it Works",
-        link: "https://www.link.com/",
+        link: "https://mostafasaleh1.github.io/myprofile/",
       },
       {
         name: "Create",
-        link: "https://www.link.com/",
+        link: "https://mostafasaleh1.github.io/myprofile/",
       },
       {
         name: "Explore",
-        link: "https://www.link.com/",
+        link: "https://mostafasaleh1.github.io/myprofile/",
       },
       {
         name: "Terms & Services",
-        link: "https://www.link.com/",
+        link: "https://mostafasaleh1.github.io/myprofile/",
       },
     ],
   },
@@ -99,23 +81,23 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.link.com/",
+        link: "https://mostafasaleh1.github.io/myprofile/",
       },
       {
         name: "Partners",
-        link: "https://www.link.com/",
+        link: "https://mostafasaleh1.github.io/myprofile/",
       },
       {
         name: "Suggestions",
-        link: "https://www.link.com/",
+        link: "https://mostafasaleh1.github.io/myprofile/",
       },
       {
         name: "Blog",
-        link: "https://www.link.com/",
+        link: "https://mostafasaleh1.github.io/myprofile/",
       },
       {
         name: "Newsletters",
-        link: "https://www.link.com/",
+        link: "https://mostafasaleh1.github.io/myprofile/",
       },
     ],
   },
@@ -124,11 +106,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://www.link.com/",
+        link: "https://mostafasaleh1.github.io/myprofile/",
       },
       {
         name: "Become a Partner",
-        link: "https://www.link.com/",
+        link: "https://mostafasaleh1.github.io/myprofile/",
       },
     ],
   },

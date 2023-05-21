@@ -12,7 +12,7 @@ const Footer = () => (
                     className="w-[266px] h-[72.14px] object-contain"
                 />
                 <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
-                    A new way to make the payments easy, reliable and secure.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 </p>
             </div>
 
@@ -24,12 +24,11 @@ const Footer = () => (
                         </h4>
                         <ul className="list-none mt-4">
                             {footerlink.links.map((link, index) => (
-                                <li
+                                <li 
                                     key={link.name}
-                                    className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
-                                        }`}
+                                    className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-[#e87345] cursor-pointer ${index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"}`}
                                 >
-                                    {link.name}
+                                    <a href={link.link}>{link.name}</a>
                                 </li>
                             ))}
                         </ul>
@@ -40,7 +39,7 @@ const Footer = () => (
 
         <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
             <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
-                Copyright Ⓒ 2022 HooBank. All Rights Reserved.
+                Copyright Ⓒ 2023 <a href="#home" className="text-[#e87345] hover:text-[#f15b20]">Group 7</a>. All Rights Reserved.
             </p>
 
             <div className="flex flex-row md:mt-0 mt-6">
@@ -49,8 +48,7 @@ const Footer = () => (
                         key={social.id}
                         src={social.icon}
                         alt={social.id}
-                        className={`w-[21px] h-[21px] object-contain cursor-pointer ${index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
-                            }`}
+                        className={`w-[21px] h-[21px] object-contain cursor-pointer ${index !== socialMedia.length - 1 ? "mr-6" : "mr-0"}`}
                         onClick={() => window.open(social.link)}
                     />
                 ))}
