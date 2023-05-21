@@ -7,36 +7,45 @@ import Info from "./components/Info";
 import ProjectInformation from "./components/ProjectInformation";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
+    <BrowserRouter>
+      <div className='bg-primary w-full overflow-hidden'>
+        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+          <div className={`${styles.boxWidth}`}>
+            <Navbar />
+          </div>
+        </div>
 
+        <div className={`bg-primary ${styles.flexStart}`}>
+          <div className={`${styles.boxWidth}`}>
+            <Routes>
+              <Route path="/graduation-project-website/" exact Component={Home} />
+            </Routes>
+          </div>
+        </div>
 
-    <div className='bg-primary w-full overflow-hidden'>
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Navbar />
+        <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+          <div className={`${styles.boxWidth}`}>
+            <Routes>
+              <Route exact path="/graduation-project-website/"
+                element={
+                  <React.Fragment>
+                    <Info />
+                    <ProjectInformation />
+                    <Testimonials />
+                    <Footer />
+                  </React.Fragment>
+                }
+              />
+            </Routes>
+          </div>
         </div>
       </div>
-
-      <div className={`bg-primary ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Home />
-        </div>
-      </div>
-
-      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Info />
-          <ProjectInformation />
-          <Testimonials />
-          <Footer />
-        </div>
-      </div>
-    </div>
-
-
+    </BrowserRouter>
   )
 }
 
-export default App
+export default App;

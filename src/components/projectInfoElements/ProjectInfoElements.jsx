@@ -1,5 +1,5 @@
 import React from 'react';
-import styles, { layout } from "../../styles";
+import styles from "../../styles";
 
 const ProjectInfoElements = ({ header, img1Title, img2Title, imgPath, img2Path, img1Hidden, img2Hidden }) => {
     return (
