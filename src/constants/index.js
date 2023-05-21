@@ -10,20 +10,16 @@ import {
 
 export const navLinks = [
   {
-    id: "/",
+    id: "/graduation-project-website/",
     title: "Home",
   },
   {
-    id: "/about",
+    id: "/graduation-project-website/about",
     title: "About",
   },
   {
-    id: "/contributers",
+    id: "/graduation-project-website/contributers",
     title: "Contributers",
-  },
-  {
-    id: "/clients",
-    title: "Clients",
   },
 ];
 

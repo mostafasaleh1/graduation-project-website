@@ -8,6 +8,8 @@ import ProjectInformation from "./components/ProjectInformation";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import About from "./components/About";
+import Contributers from "./components/Contributers";
 
 const App = () => {
   return (
@@ -40,6 +42,8 @@ const App = () => {
                   </React.Fragment>
                 }
               />
+              <Route path="/graduation-project-website/about" Component={About} />
+              <Route path="/graduation-project-website/contributers" Component={Contributers} />
             </Routes>
           </div>
         </div>
