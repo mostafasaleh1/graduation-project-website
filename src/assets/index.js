@@ -20,6 +20,7 @@ import camera from "./camera.webp";
 import cameraDimentions from "./cameraDimentions.webp";
 import armDimentions from "./armDimentions.webp";
 import arm from "./arm.webp";
+import ourTeam from "./ourTeam.png";
 
 
 export {
@@ -45,4 +46,5 @@ export {
   cameraDimentions,
   armDimentions,
   arm,
+  ourTeam,
 };

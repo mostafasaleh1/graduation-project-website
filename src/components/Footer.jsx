@@ -12,7 +12,7 @@ const Footer = () => (
                     className="w-[266px] h-[72.14px] object-contain"
                 />
                 <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    A mobile arm robot which utilizes its integrated technologies to map and interact with its environment.
                 </p>
             </div>
 

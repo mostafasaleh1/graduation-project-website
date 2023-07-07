@@ -52,64 +52,32 @@ export const feedback = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "About",
     links: [
       {
-        name: "Content",
+        name: "Project Book",
         link: "https://mostafasaleh1.github.io/myprofile",
       },
       {
-        name: "How it Works",
-        link: "https://mostafasaleh1.github.io/myprofile/",
+        name: "Project Presentation",
+        link: "https://mostafasaleh1.github.io/myprofile",
       },
+    ],
+  },
+  {
+    title: "Contributers",
+    links: [
       {
-        name: "Create",
-        link: "https://mostafasaleh1.github.io/myprofile/",
-      },
-      {
-        name: "Explore",
-        link: "https://mostafasaleh1.github.io/myprofile/",
-      },
-      {
-        name: "Terms & Services",
+        name: "About our Team",
         link: "https://mostafasaleh1.github.io/myprofile/",
       },
     ],
   },
   {
-    title: "Community",
+    title: "Useful Links",
     links: [
       {
-        name: "Help Center",
-        link: "https://mostafasaleh1.github.io/myprofile/",
-      },
-      {
-        name: "Partners",
-        link: "https://mostafasaleh1.github.io/myprofile/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://mostafasaleh1.github.io/myprofile/",
-      },
-      {
-        name: "Blog",
-        link: "https://mostafasaleh1.github.io/myprofile/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://mostafasaleh1.github.io/myprofile/",
-      },
-    ],
-  },
-  {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
-        link: "https://mostafasaleh1.github.io/myprofile/",
-      },
-      {
-        name: "Become a Partner",
+        name: "Source Code",
         link: "https://mostafasaleh1.github.io/myprofile/",
       },
     ],

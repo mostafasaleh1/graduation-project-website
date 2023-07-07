@@ -21,12 +21,12 @@ const Home = () => (
                 Robot with :::ROS
             </h1>
             <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-                This is our graduation project.... Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aliquid porro qui odio placeat facilis.
+            This is our graduation project. A mobile arm robot which utilizes its integrated technologies to map and interact with its environment.
             </p>
         </div>
 
         <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative xl:px-0 sm:px-16`}>
-            <img src={homeImage} alt="robot" className="w-[80%] h-[75%] relative z-[5]" />
+            <img src={homeImage} alt="robot" className="w-[90%] h-[90%] relative z-[5]" />
 
             {/* gradient start */}
             <div className="absolute z-[1] w-[75%] h-[75%] rounded-full white__gradient bottom-40" />
