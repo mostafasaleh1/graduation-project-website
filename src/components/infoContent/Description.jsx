@@ -5,7 +5,7 @@ import { fullInfo } from '../../assets';
 
 export const Description = () => (
     <div className={`flex w-[80%] flex-col items-center md:w-min`}>
-        <iframe className={styles.iframe} src="https://www.youtube.com/embed/JOCs_yg1wlE" title="project video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe className={styles.iframe} src="https://www.youtube.com/embed/Kp6QpPA_usM" title="Intelligent Mobile Robot, Higher Institute of engineering and technology KFS graduation project 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <h2 className={`${styles.heading2} text-center p-[1rem] sm:p-[2rem]`}>Project Description</h2>
         <p className={`${styles.paragraph}`}>Our graduation project is a mobile arm robot equipped with a Kinect camera for mapping its surroundings. Using advanced computer vision techniques, the Kinect camera captures depth information and RGB images to perceive the environment. The robot's mobile base enables it to navigate autonomously, while the arm manipulator allows for object interaction.</p>
         <p className={`${styles.paragraph} pt-3 pb-10`}> By combining the sensor data with simultaneous localization and mapping (SLAM) algorithms, the robot creates a detailed and accurate map of its surroundings. This project showcases the fusion of robotics, computer vision, and mapping technologies, offering a versatile and intelligent solution for various applications, including industrial automation, surveillance, and assistive robotics.</p>

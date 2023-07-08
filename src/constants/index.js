@@ -15,11 +15,15 @@ export const navLinks = [
   },
   {
     id: "/graduation-project-website/about",
-    title: "About",
+    title: "Documentation",
   },
   {
     id: "/graduation-project-website/contributers",
     title: "Contributers",
+  },
+  {
+    id: "https://robot.amadagency.net",
+    title: "Share Screen",
   },
 ];
 
@@ -52,15 +56,15 @@ export const feedback = [
 
 export const footerLinks = [
   {
-    title: "About",
+    title: "Documentation",
     links: [
       {
         name: "Project Book",
-        link: "https://mostafasaleh1.github.io/myprofile",
+        link: "/graduation-project-website/about",
       },
       {
         name: "Project Presentation",
-        link: "https://mostafasaleh1.github.io/myprofile",
+        link: "/graduation-project-website/about",
       },
     ],
   },
@@ -69,7 +73,7 @@ export const footerLinks = [
     links: [
       {
         name: "About our Team",
-        link: "https://mostafasaleh1.github.io/myprofile/",
+        link: "/graduation-project-website/contributers",
       },
     ],
   },
@@ -78,7 +82,11 @@ export const footerLinks = [
     links: [
       {
         name: "Source Code",
-        link: "https://mostafasaleh1.github.io/myprofile/",
+        link: "https://github.com/0xDigimon/Intelligent-Mobile-Robot-IMR",
+      },
+      {
+        name: "Share Screen",
+        link: "https://robot.amadagency.net",
       },
     ],
   },
