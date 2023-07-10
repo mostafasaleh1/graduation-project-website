@@ -19,7 +19,7 @@ export const navLinks = [
   },
   {
     id: "/graduation-project-website/contributers",
-    title: "Contributers",
+    title: "Our Team",
   },
   {
     id: "https://robot.amadagency.net",
@@ -69,7 +69,7 @@ export const footerLinks = [
     ],
   },
   {
-    title: "Contributers",
+    title: "Our Team",
     links: [
       {
         name: "About our Team",

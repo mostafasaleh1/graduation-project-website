@@ -1,18 +1,14 @@
 import React from 'react';
 import styles from '../../styles';
 import { technologies } from '../../assets';
-import { fullInfo } from '../../assets';
 
 export const Description = () => (
     <div className={`flex w-[80%] flex-col items-center md:w-min`}>
-        <iframe className={styles.iframe} src="https://www.youtube.com/embed/Kp6QpPA_usM" title="Intelligent Mobile Robot, Higher Institute of engineering and technology KFS graduation project 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe className={styles.iframe} src="https://www.youtube.com/embed/riImir4z0CU" title="Intelligent Mobile Robot, Higher Institute of engineering and technology KFS graduation project 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <h2 className={`${styles.heading2} text-center p-[1rem] sm:p-[2rem]`}>Project Description</h2>
-        <p className={`${styles.paragraph}`}>Our graduation project is a mobile arm robot equipped with a Kinect camera for mapping its surroundings. Using advanced computer vision techniques, the Kinect camera captures depth information and RGB images to perceive the environment. The robot's mobile base enables it to navigate autonomously, while the arm manipulator allows for object interaction.</p>
-        <p className={`${styles.paragraph} pt-3 pb-10`}> By combining the sensor data with simultaneous localization and mapping (SLAM) algorithms, the robot creates a detailed and accurate map of its surroundings. This project showcases the fusion of robotics, computer vision, and mapping technologies, offering a versatile and intelligent solution for various applications, including industrial automation, surveillance, and assistive robotics.</p>
+        <p className={`${styles.paragraph}`}>This project introduces an autonomous mobile robot with an arm to assist it we called our Robot Intelligent Mobile Robot (IMR) designed to be used for indoor navigation. It can be operated either autonomously or controlled by a man remotely over the network or wired. Odometry information is used to estimate the robot's position relative to its origin. To achieve robust odometry, the robot uses two sources of odometry, the linear velocities from the encoders and the angular velocity from the IMU. A Kinect v2 mounted on the robot creates a SLAM map with the help of edge detection and computer vision.</p>
+        <p className={`${styles.paragraph} pt-3 pb-10`}>The robot can navigate autonomously through the predefined map using AMCL. A robot arm is mounted to pick and place objects. The project is based on Robots Operating System (ROS) which makes its functionality reusable in other projects. Modularity and readable codes are considered in the design and implementation of software nodes. About future work, there is a wide field of updates like object detection, On-line Mapping of new Environments and Voice commands, gesture control for a variety of tasks.</p>
         <img src={technologies} alt="Technologies" />
-        <h2 className={`${styles.heading2} text-center p-[1rem] sm:p-[2rem]`}>Jetson Nano Control System</h2>
-        <p className={`${styles.paragraph} pt-3 pb-10`}>NVIDIA Jetson Nano is able to run mainstream deep learning frameworks, such as TensorFlow, PyTorch, Caffe/ Caffe2, Keras, MXNet. Provide powerful computing power for massive AI projects. Powered by Jetson Nano, JetAuto Pro can implement image recognition, object detection and positioning, pose estimation, semantics segmentation, intelligent analysis and other almighty functions.</p>
-        <img src={fullInfo} alt="full info" />
     </div>
 )
 
