@@ -21,7 +21,18 @@ import cameraDimentions from "./cameraDimentions.webp";
 import armDimentions from "./armDimentions.webp";
 import arm from "./arm.webp";
 import ourTeam from "./ourTeam.png";
-
+import ahmed from "./ahmed.jpeg";
+import ammar from "./ammar.jpg";
+import taher from "./taher.jpeg";
+import ana from "./ana.jpg";
+import esam from "./esam.jpeg";
+import dina from "./dina.jpg";
+import amroosy from "./amroosy.jpg";
+import aliaa from "./aliaa.jpg";
+import alaa from "./alaa.jpeg";
+import hassan from "./hassan.jpeg";
+import mohamed from "./mohamed.jpeg";
+import morsh from "./morsh.jpg";
 
 export {
   logo,
@@ -47,4 +58,16 @@ export {
   armDimentions,
   arm,
   ourTeam,
+  ahmed,
+  ammar,
+  taher,
+  ana,
+  esam,
+  dina,
+  amroosy,
+  aliaa,
+  alaa,
+  hassan,
+  mohamed,
+  morsh,
 };
