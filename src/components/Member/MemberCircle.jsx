@@ -23,9 +23,9 @@ const MemberCirlce = ({ link, link2, facebookLink, linkedinLink, githubLink, job
                     <p className={`${isHovering ? 'member-p' : 'member-p hidden'} pr-5 pl-5`}>{job}</p>
                 </div>
                 <div className={`${isHovering ? 'member-social-media text-[1.8rem]' : 'member-social-media text-[1.8rem] hidden'}`}>
-                    <div className={`${facebookLink === "" ? 'member-social-media hidden' : 'member-social-media'}`}><a href={facebookLink}><FaFacebookSquare /></a></div>
-                    <div className={`${linkedinLink === "" ? 'member-social-media hidden' : 'member-social-media'}`}><a href={linkedinLink}><FaLinkedin /></a></div>
-                    <div className={`${githubLink === "" ? 'member-social-media hidden' : 'member-social-media '}`}><a href={githubLink}><FaGithubSquare /></a></div>
+                    <div className={`${facebookLink === "" ? 'member-social-media hidden' : 'member-social-media'}`}><a target='_blank' rel='noreferrer' href={facebookLink}><FaFacebookSquare /></a></div>
+                    <div className={`${linkedinLink === "" ? 'member-social-media hidden' : 'member-social-media'}`}><a target='_blank' rel='noreferrer' href={linkedinLink}><FaLinkedin /></a></div>
+                    <div className={`${githubLink === "" ? 'member-social-media hidden' : 'member-social-media '}`}><a target='_blank' rel='noreferrer' href={githubLink}><FaGithubSquare /></a></div>
                 </div>
             </div>
         </div>

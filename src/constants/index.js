@@ -20,7 +20,7 @@ export const navLinks = [
   },
   {
     id: "https://robot.amadagency.net",
-    title: "Share Screen",
+    title: "View Cam",
   },
 ];
 
@@ -82,7 +82,7 @@ export const footerLinks = [
         link: "https://github.com/0xDigimon/Intelligent-Mobile-Robot-IMR",
       },
       {
-        name: "Share Screen",
+        name: "View Cam",
         link: "https://robot.amadagency.net",
       },
     ],
