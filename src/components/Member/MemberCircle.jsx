@@ -20,7 +20,6 @@ const MemberCirlce = ({ link, link2, facebookLink, linkedinLink, githubLink, job
             <div className='member-content-container'>
                 <div>
                     <h2>{name}</h2>
-                    <p className={`${isHovering ? 'member-p m-[0] p-[0] text-xs' : 'member-p m-[0] p-[0] text-xs'}`}>{teamLeader === "yes" ? "Team Leader" : ""}</p>
                     <p className={`${isHovering ? 'member-p' : 'member-p hidden'} pr-5 pl-5`}>{job}</p>
                 </div>
                 <div className={`${isHovering ? 'member-social-media text-[1.8rem]' : 'member-social-media text-[1.8rem] hidden'}`}>

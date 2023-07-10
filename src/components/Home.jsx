@@ -10,7 +10,7 @@ const Home = () => (
             <div className="flex flex-row justify-between items-center w-full">
                 <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
                     Intelligent <br className="sm:block hidden" />{" "}
-                    <span className="text-gradient text-[1.1em]">Mobile Arm</span>{" "}
+                    <span className="text-gradient text-[1.1em]">Mobile</span>{" "}
                 </h1>
                 <div className="ss:flex hidden md:mr-4 mr-0">
                     <ViewOnGithub />
@@ -21,7 +21,7 @@ const Home = () => (
             Robot
             </h1>
             <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-            This is our graduation project. A mobile arm robot which utilizes its integrated technologies to map and interact with its environment using :::ROS with manual arm control.
+            This is our graduation project. Our project is an autonomous mobile robot called IMR (Intelligent Mobile Robot) which utilizes its integrated technologies to map and interact with its environment using ::: ROS with manual arm control.
             </p>
         </div>
 

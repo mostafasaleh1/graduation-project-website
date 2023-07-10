@@ -4,7 +4,6 @@ import {
     projectComponents,
     camera,
     cameraDimentions,
-    projectDimentions,
     arm,
     armDimentions
 } from "../assets";
@@ -35,13 +34,6 @@ const ProjectInformation = () => (
             img2Path={armDimentions}
             img1Hidden=""
             img2Hidden=""
-        />
-        <ProjectInfoElements
-            header="Project Dimentions"
-            img1Title="Project Dimentions"
-            imgPath={projectDimentions}
-            img1Hidden=""
-            img2Hidden="hidden"
         />
     </section>
 );

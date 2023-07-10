@@ -10,7 +10,6 @@ const Contributers = () => {
                 <MemberCircle
                     link={morsh1}
                     link2={morsh2}
-                    teamLeader="yes"
                     name="Abdulrahman Elmorshedy"
                     job="Junior Robotics Engineer"
                     facebookLink="https://www.facebook.com/TheHero100"
@@ -18,19 +17,8 @@ const Contributers = () => {
                     githubLink="https://github.com/TheHero100"
                 />
                 <MemberCircle
-                    link={amroosy1}
-                    link2={amroosy2}
-                    teamLeader="yes"
-                    name="Abdelmawla Elamrosy"
-                    job="Penetration Tester Engineer & System Admin"
-                    facebookLink="http://facebook.com/Abdelmawla.Elamrosy"
-                    linkedinLink="http://linkedin.com/in/abdelmawla-elamrosy"
-                    githubLink="http://github.com/0xdigimon"
-                />
-                <MemberCircle
                     link={ana1}
                     link2={ana2}
-                    teamLeader="yes"
                     name="Mostafa Saleh"
                     job="Cloud Networking Engineer"
                     facebookLink="https://facebook.com/saleh2011"
@@ -38,9 +26,18 @@ const Contributers = () => {
                     githubLink="https://github.com/mostafasaleh1"
                 />
                 <MemberCircle
+                    link={amroosy1}
+                    link2={amroosy2}
+                    name="Abdelmawla Elamrosy"
+                    job="Penetration Tester Engineer & System Admin"
+                    facebookLink="http://facebook.com/Abdelmawla.Elamrosy"
+                    linkedinLink="http://linkedin.com/in/abdelmawla-elamrosy"
+                    githubLink="http://github.com/0xdigimon"
+                />
+
+                <MemberCircle
                     link={esam1}
                     link2={esam2}
-                    teamLeader="yes"
                     name="Esam Fayed"
                     job="Automation Engineer"
                     facebookLink="https://www.facebook.com/essam.fayed.904"
@@ -132,9 +129,9 @@ const Contributers = () => {
                     link={nada1}
                     link2={nada2}
                     name="Nada Esam"
-                    job="Fresh Graduate"
-                    facebookLink=""
-                    linkedinLink=""
+                    job="Back end & front end & software Engineer"
+                    facebookLink="https://www.facebook.com/profile.php?id=100028298872031&mibextid=ZbWKwL"
+                    linkedinLink="https://www.linkedin.com/in/nada-essam-565989282"
                     githubLink=""
                 />
             </section>
