@@ -46,6 +46,7 @@ import mohamed2 from "./mohamed2.png";
 import morsh2 from "./morsh2.png";
 import hend2 from "./hend2.png";
 import nada2 from "./nada2.png";
+import sharescreen from "./sharescreen.png";
 
 export {
   logo,
@@ -96,4 +97,5 @@ export {
   morsh2,
   hend2,
   nada2,
+  sharescreen
 };

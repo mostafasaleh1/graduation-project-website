@@ -19,7 +19,7 @@ export const navLinks = [
     title: "Our Team",
   },
   {
-    id: "https://robot.amadagency.net",
+    id: "/graduation-project-website/sharescreen",
     title: "View Cam",
   },
 ];
@@ -83,7 +83,7 @@ export const footerLinks = [
       },
       {
         name: "View Cam",
-        link: "https://robot.amadagency.net",
+        link: "/graduation-project-website/sharescreen",
       },
     ],
   },

@@ -41,7 +41,7 @@ const Footer = () => (
 
         <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
             <p className="font-poppins font-normal text-center text-[16px] leading-[24px] text-white">
-                Copyright Ⓒ 2023 <Link to="/graduation-project-website/contributers" className="text-[#e87345] hover:text-[#f15b20]">Our Team</Link>. Developed by <a target='_blank' rel='noreferrer' className="text-[#e87345] hover:text-[#f15b20]" href="https://mostafasaleh1.github.io/myprofile">Mostafa Saleh</a> && designed by <a className="text-[#e87345] hover:text-[#f15b20]" target='_blank' rel='noreferrer' href="https://www.linkedin.com/in/abdulrahmanelmorshedy/">Abdulrahman Elmorshedy</a>
+                Copyright Ⓒ 2023 <Link to="/graduation-project-website/contributers" className="text-[#e87345] hover:text-[#f15b20]">Our Team</Link>. Developed by <a target='_blank' rel='noreferrer' className="text-[#e87345] hover:text-[#f15b20]" href="https://mostafasaleh1.github.io/myprofile">Mostafa Saleh</a> && designed by <a className="text-[#e87345] hover:text-[#f15b20]" target='_blank' rel='noreferrer' href="https://www.linkedin.com/in/abdulrahmanelmorshedy/">Abdulrahman Elmorshedy</a>.
             </p>
 
             <div className="flex flex-row md:mt-0 mt-6">

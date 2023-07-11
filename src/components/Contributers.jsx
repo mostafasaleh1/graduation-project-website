@@ -84,7 +84,7 @@ const Contributers = () => {
                     link={ahmed1}
                     link2={ahmed2}
                     name="Ahmed Salman"
-                    job="Embedded system engineer & design engineer"
+                    job="Automation Engineer"
                     facebookLink="https://www.facebook.com/profile.php?id=100009611750493&mibextid=LQQJ4d"
                     linkedinLink=""
                     githubLink=""

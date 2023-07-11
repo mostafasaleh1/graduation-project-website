@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import About from "./components/About";
 import Contributers from "./components/Contributers";
+import ShareScreen from './components/ShareScreen';
 
 const App = () => {
   return (
@@ -44,6 +45,7 @@ const App = () => {
               />
               <Route path="/graduation-project-website/about" Component={About} />
               <Route path="/graduation-project-website/contributers" Component={Contributers} />
+              <Route path="/graduation-project-website/sharescreen" Component={ShareScreen} />
             </Routes>
           </div>
         </div>
