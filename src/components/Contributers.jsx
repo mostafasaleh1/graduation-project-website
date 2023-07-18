@@ -20,7 +20,7 @@ const Contributers = () => {
                     link={ana1}
                     link2={ana2}
                     name="Mostafa Saleh"
-                    job="Cloud Networking Engineer"
+                    job="Cloud Engineer"
                     facebookLink="https://facebook.com/saleh2011"
                     linkedinLink="https://linkedin.com/in/mostafasaleh5"
                     githubLink="https://github.com/mostafasaleh1"
