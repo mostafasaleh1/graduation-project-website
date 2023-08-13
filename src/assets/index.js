@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+import logo from "./logo.webp";
 import quotes from "./quotes.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -8,8 +8,8 @@ import github from "./github.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
-import homeImage from "./homeImage.png";
-import technologies from "./technologies.png";
+import homeImage from "./homeImage.webp";
+import technologies from "./technologies.webp";
 import fullInfo from "./fullInfo.webp";
 import projectComponents from "./projectComponents.webp";
 import projectDimentions from "./projectDimentions.webp";
@@ -46,7 +46,7 @@ import mohamed2 from "./mohamed2.webp";
 import morsh2 from "./morsh2.webp";
 import hend2 from "./hend2.webp";
 import nada2 from "./nada2.webp";
-import sharescreen from "./sharescreen.png";
+import sharescreen from "./sharescreen.webp";
 
 export {
   logo,
